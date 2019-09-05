@@ -14,10 +14,21 @@ Install & start the server:
 
 ```
 $ npm install
-$ npm start
+$ npm run dev
 ```
 
 Then [open http://localhost:8080](http://localhost:8080) and build your game!
+
+## Publishing
+
+First, edit the "start" script in `package.json` to `cd` into the directory of your game
+(eg, `cd mygame && ...`). Then, create an app and publish it:
+
+```
+$ heroku create name-your-game
+$ git push heroku master
+$ heroku open
+```
 
 ## Attributions
 

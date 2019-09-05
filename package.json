@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -c 0"
+    "dev": "http-server -c 0",
+    "start": "cd stage-07-sound && http-server -c 0"
   },
   "keywords": [],
   "author": "",
